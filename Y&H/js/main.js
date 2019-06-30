@@ -39,7 +39,7 @@ $(function() {
 	===============================================*/
 	if ($("#countdown").length) {
 		$("#countdown").countdown({
-			until : new Date(2020, 6-1, 19)
+			until : new Date(2019, 9-1, 15)
 			//http://keith-wood.name/countdown.html
 		});
 	}
@@ -67,21 +67,6 @@ $(function() {
 		var video = '<iframe src="' + $('.video img').attr('data-video') + '"></iframe>'
 		$('.video img').after(video);
 		return false;
-	});
-
-	/*==============================================
-	COUNTER UP
-	===============================================*/
-	$('.counter').counterUp({
-		delay: 2,
-		time: 1000
-	});
-
-	/*==============================================
-	WISHED SLIDER MOVE WITH MOUSEL WHEEL
-	===============================================*/
-	$('#wishedSlider').bind('mousewheel', function(e){
-		$(this).carousel('next');
 	});
 
 	/*==============================================

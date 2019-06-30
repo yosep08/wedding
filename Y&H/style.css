@@ -353,6 +353,13 @@ p{
 /***************************************************/
 /************** SLIDER AREA *****************/
 /***************************************************/
+.rotateimg180 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
 .slider-area .carousel-fade .carousel-inner .item {
     background-repeat: no-repeat;
     background-size: cover;
